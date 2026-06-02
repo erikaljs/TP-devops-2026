@@ -1,0 +1,20 @@
+{
+  "name": "tp-devops-2026",
+  "version": "1.0.0",
+  "description": "API qui retourne les headers HTTP sur /ping",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erikaljs/TP-devops-2026.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "typescript": "^6.0.3"
+  }
+}
